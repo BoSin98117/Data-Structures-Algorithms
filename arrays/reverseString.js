@@ -9,11 +9,13 @@ function reverse(str) {
     return backwards.join('');
 }
 
+// Using built in functions: split, reverse, and join
 function reverse2(str) {
     //check for valid input
     return str.split('').reverse().join('');
 }
 
+// ES6 way
 const reverse3 = str => [...str].reverse().join('');
 
 reverse('Timbits Hi')
