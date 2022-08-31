@@ -1,3 +1,4 @@
+// O(n)
 function findFactorialIterative(number) {
     let answer = 1;
     // you actually no longer need the if statement because of the for loop
@@ -10,6 +11,7 @@ function findFactorialIterative(number) {
     return answer;
 }
 
+// O(2^n) - exponential time.  Size increases exponentially.
 function findFactorialRecursive(number) {
     if (number === 2) {
         return 2;
